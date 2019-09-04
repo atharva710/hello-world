@@ -7,7 +7,8 @@ void i_s(int data,int position)
  	struct node *new=(struct node)malloc(sizeof(struct node));
 	new->data=data;
 	if(position==1)		//if node inserted at first position
-	{		
+	{	
+		printf("hello")
 			new->next=p;
 			head=new;
 	}
